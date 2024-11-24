@@ -88,3 +88,7 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
+
+.indent {
+  padding-left: 2rem;
+}
