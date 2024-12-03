@@ -21,7 +21,7 @@ main {
     text-align : center;
     font-size: 3rem;
     text-shadow: 3px 3px 5px #cb7429;
-    background: radial-gradient(#eee,#b7b6b3);
+    background: var(--background-color);
     /*border:1px solid#000;*/
     padding:0.65rem;
     box-shadow:0 0 0 #111;
