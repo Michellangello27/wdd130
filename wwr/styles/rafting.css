@@ -71,7 +71,7 @@ header a {
 .hero article {
     position: absolute;
     top: 360px;
-    background-color: hsla(163, 17%, 41%, 0.462);
+    background-color: hsla(143, 18%, 38%, 0.462);
     padding:0.65rem;
     box-shadow:0 0 30px #111;
     opacity: 2.5;
@@ -83,7 +83,7 @@ header a {
 
 .hero article img {
     top: 250px;
-    width: 200px;
+    width: 260px;
     height: 100%;
     float: right;
 }
