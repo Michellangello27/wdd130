@@ -35,8 +35,14 @@ main {
 h2, h3, h4, h5, h6 {
     font-family: 'Quicksand', serif;
     color: var(--secondary-color);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    margin-bottom: 1rem;
+    text-shadow: 3px 3px 5px #cb7429;
+    text-align: center;
+    /*margin-bottom: 1rem;*/
+}
+
+h5 {
+    color: var(--secondary-color)
+    text-align: center;
 }
 
 p {
@@ -83,7 +89,7 @@ header a {
 
 .hero article img {
     top: 250px;
-    width: 260px;
+    width: 240px;
     height: 100%;
     float: right;
 }
