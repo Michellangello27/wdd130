@@ -26,7 +26,7 @@ main {
     padding:0.65rem;
     box-shadow:0 0 0 #111;
     opacity: 0.5;
-    width: 98.5%;
+    width: 98%;
     height: auto;
     top: 75px;
     
@@ -71,11 +71,11 @@ header a {
 .hero article {
     position: absolute;
     top: 360px;
-    background: gradient(#eee,#6395d7);
+    background-color: hsla(163, 17%, 41%, 0.462);
     padding:0.65rem;
     box-shadow:0 0 30px #111;
     opacity: 2.5;
-    width: 1100px;
+    width: 850px;
     height: 20%;
     float: left;
     margin: 3rem;
@@ -83,7 +83,7 @@ header a {
 
 .hero article img {
     top: 250px;
-    width: 300px;
+    width: 200px;
     height: 100%;
     float: right;
 }
