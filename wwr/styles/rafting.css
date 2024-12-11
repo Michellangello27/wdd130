@@ -114,6 +114,9 @@ h2, h3, h4, h5 {
     text-align : center;
     justify-content: space-around;
 }
+h4 {
+    text-align : left;  
+}
 
 h6 {
     font-family: 'Quicksand', serif;
@@ -136,6 +139,7 @@ p {
     font-size: larger;
     line-height: 1.6;
     margin-bottom: 1.5rem;
+    text-align : left;
 }
 
 .hero {
