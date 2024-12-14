@@ -9,8 +9,8 @@
     --primary-color: #000000;
     --secondary-color: #000403;
     --background-color: #0b9e8d;
-    
-    --accent-color: tomato;
+    --accent1-color: tomato;
+    --accent2-color: hsla(177, 71%, 69%, 0.5);
     --text-shadow: #e0e03c;
     --highlight-color: rgb(255, 255, 255);
 }
@@ -50,7 +50,7 @@ a {
 }
 
 .navigation a:hover {
-    color: var(--accent-color);
+    color: var(--accent1-color);
     font-weight: 400;
 }
 
@@ -97,7 +97,7 @@ margin: 10px auto;
     background: var(--background-color);*/
     position: absolute;
     top: 100px;
-    background-color: hsla(177, 71%, 69%, 0.5);
+    background-color: var(--accent2-color);
     padding: 2.5rem;
     /*box-shadow:0 0 30px #091711;*/
     opacity: 0.7;
@@ -295,7 +295,6 @@ footer {
     margin: 30px; 
 }
 
-
 aside {
     box-sizing: border-box;    
     /*margin: 2px;*/
@@ -321,9 +320,8 @@ aside {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
- 
-    /*border: 1px solid #ffffff;*/   
 }
+
 .our-employees figure {
     max-width: 238px;
     margin: 0 2px;
@@ -341,28 +339,28 @@ aside {
     margin: 16px 2rem;
     display: flex;
     flex-direction: column;
-
-    justify-content: space-around;
+    justify-content: space-between;
     border: 1px solid #ffffff;   
 }
 
 .data-general {
     float: left;
     margin-left: 25px;
-    width: 45%;
+    width: 50%;
 }
 
 .data-especific {
     float: left;
     margin-left: 25px;
-    width: 55%;
+    width: 50%;
+    justify-content: center;
 }
 
 label {
     display: flex;
     color: var(--secondary-color);
     margin-bottom: 12px;
-    width: 240px;
+    width: 270px;
 }
 
 input {
@@ -371,20 +369,43 @@ input {
     margin-bottom: 24px;
     align-items: center;   
 }
-/*
-.data-especific purpose label {
-    width: 240px;
-    cursor: pointer;
-    display: inline-block;
-    width: 100%;
 
+.message1 {
+    cursor: pointer;
+    margin-inline: 100px;
 }
-*/    
+
 input[type=radio] {
     border: 0px;
     width: 40px;
     height: 1.2rem;
 }
+
+input[type=checkbox] {
+    border: 20px;
+    width: 30px;
+    height: 1.2rem;
+}
+
+
 button {
-    margin-top: 1rem;
+    background-color: var(--accent2-color);
+    border: 10px;
+    padding: 10px 35px;
+    text-align: center;
+    color:var(--secondary-color);
+    font-size: 16px;
+    margin: 4px 3px;
+    cursor: pointer;
+    display: inline-flex;
+    border-radius: 10px;
+    margin-inline-start: 280px;
+
+}
+
+button:hover{
+    background-color: transparent;
+    border: 1px solid var(--highlight-color);
+    color: var(--primary-color)
+    
 }
