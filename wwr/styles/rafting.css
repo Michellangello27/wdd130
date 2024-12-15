@@ -317,9 +317,10 @@ aside {
     background: var(--background-color);
     float: left;
 }
-.title1 {
+.title2 {
     font-size: 3rem;   
 }
+
 .title4 {
     margin : 20px 30px;
 }
@@ -426,15 +427,16 @@ btn {
     box-shadow: 0 0 0 0 rgba(25, 15, 26, 0.227), 0 0 0 0 rgba(232, 87, 54, 0.296);
     transition: transform 0.3s ease;
     background-color: var(--accent2-color);
-    height: auto;
+    width: 240px;
+    height: 45px;
     padding: 8px;
-    text-align: center;
-    font-size: 16px;
     font-weight: 700;
-    margin: 4px 4px;
-    cursor: pointer;
     display: inline-flex;
     margin-inline-start: 240px;
+}
+
+a.button {
+    justify-content: center;
 }
 
 .button:hover {
