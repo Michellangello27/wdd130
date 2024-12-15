@@ -65,7 +65,7 @@
                            <iframe 
                                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d288.33177282695624!2d-71.98711826658423!3d-13.516283086560154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1734237081555!5m2!1ses-419!2spe"
                                 width="600"
-                                height="450"
+                                height="480"
                                 style="border:0;"
                                 allowfullscreen>
                             </iframe>
@@ -103,15 +103,16 @@
                                 </figcaption>
                     </figure>
                 </div>
-                <div class="form">
+                <section class="form">
 
                     <h4 class="title4">Send us an email with your query to sales@raftingadventures.com, 
                         or complete the form.
                     </h4>
                     <h1 class="title1"> Ready to get in contact?</h1>
-                    <form action="data.php" method="post">
+
+                    <!--<form action="data.php" method="post">-->
+                    <section>
                         <div class="data-general">
-                            
                             <div>
                                 <label for="name">NAME</label>
                                 <input type="text" id="name" name="name" placeholder=" Write your full name">
@@ -129,13 +130,10 @@
                             <h5>Saturdays: 09:00-13:00 (except holidays)</h5>
                             <h5>Phone : 999-999-999</h5>
                             <h5>Mail to : reservations@raftingadventures.com</h5>
-
-
                         </div>
                         <div class="data-specific">
                             <div class="purpose">
                                 <h3>PURPOSE OF THE MESSAGE</h3>
-
                                 <label style="float:left"><input checked type="radio" id="purpose1" name="purpose1" value="Inquire">General Inquiry</label>
                                 <label style="float:left"><input type="radio" id="purpose2" name="purpose1" value="Reservation">Reservation Question</label>
                                 <label style="float:left"><input type="radio" id="purpose3" name="purpose1" value="Suggestion">Web Site Suggestion</label>
@@ -147,16 +145,15 @@
                             <br>
                             <div class="suscription>">
                                 <label style="float:left"><input type="checkbox" id="newsletter" >Please subscribe me to the monthly newsletter</label>
-                                
                             </div>
                             <br><br>
-                            
-                            <button>Ready! Submit form</button>       
+                            <input class="button" type="submit" value ="Ready! Submit form">
                             <br>
                             <br>
                         </div>
-                    </form>
-                </div>
+                    </section>
+                    <!--</form>-->
+                </section>
             </aside>
         </main>
         
