@@ -317,7 +317,7 @@ aside {
     background: var(--background-color);
     float: left;
 }
-.title2 {
+.title1 {
     font-size: 3rem;   
 }
 
@@ -351,7 +351,7 @@ aside {
 
 .form {
     box-sizing: border-box;    
-    margin: 10px 28px 17px 18px;
+    margin: 10px 17px 17px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -433,10 +433,6 @@ btn {
     font-weight: 700;
     display: inline-flex;
     margin-inline-start: 240px;
-}
-
-a.button {
-    justify-content: center;
 }
 
 .button:hover {
