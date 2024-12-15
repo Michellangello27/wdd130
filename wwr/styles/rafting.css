@@ -297,7 +297,7 @@ iframe {
 }
 .map-responsive {
     overflow:hidden;
-    padding-bottom: 94.6%;
+    padding-bottom: 100%;
     position:relative;
     height:0;
 }
@@ -317,8 +317,8 @@ aside {
     background: var(--background-color);
     float: left;
 }
-.title1 {
-    font-size: 3rem;   
+.title2 {
+    font-size: 2rem;   
 }
 
 .title4 {
@@ -351,7 +351,7 @@ aside {
 
 .form {
     box-sizing: border-box;    
-    margin: 10px 17px 17px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
