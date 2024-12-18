@@ -3,11 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Rafting Adventure Agency - Contact Page - Phone:999-999-999 Mail to:consulting@raftingadventures.com</title>
+        <title>Contact Rafting Adventure Agency /Phone:999-999-999 Mail to:consulting@raftingadventures.com</title>
         <meta 
             name="description" 
-            content="The Ángel Cornejo's Rafting Site About Us Page provides information about of
+            content="The Ángel Cornejo's Rafting Site Contact Page provides information about of
              the Rafting Adventure Agency, address, phones, emails, employees, located and others.
+             The reference of our employees who endorse our service and work, 
+             as well as a survey form to subscribe to our newsletter
              Phone:999-999-999 Mail to:consulting@raftingadventures.com">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="author" content="Ángel Cornejo">
@@ -33,10 +35,14 @@
             </div>
         </header> 
         <main>
+            <div class="hero">
+                <img src="images/banner4.webp" alt= "Rafting Adventure-Contacts" width= "1250" height= "620">
+                <h1>Best of the best!</h1>
+            </div>
             <section class="company-information">
                 <div>
                     <p></p>
-                    <h2 class="title2">Constact Us</h2>
+                    <h2 class="title3">Constact Us</h2>
                     <h3>Send Us a Message</h3>
                     <h3>Rafting Adventure</h3>
                     <h3>Phone: 999-999-999</h3>
@@ -75,82 +81,86 @@
                 </div>
             </section>
             <aside>
-                <p></p>                
-                <h1>Our Team</h1>
-
-                <h4 class="title4"> We have a team of 25 employees, our winning and service culture motivates us to work as a team and
-                    with optimism to always provide the best service to the client and 
-                    for the client, in an environment where #Everyone is Welcome.
-                </h4>          
-                <div class="our-employees">
-                    <figure>
-                        <img src="images/sales-employee.webp" alt="Sales-employee">
-                        <figcaption>Sales Manager<br>
-                                    Cesar Antonio Puértolas, Sales Manager and guide in outdoor adventure sports
-                                    with more than 25 years of experience in the field.
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/reservations-employee.webp" alt="Reservations-employee">
-                        <figcaption>Reservations and Logistics<br>
-                                    María Cristina Olivares, has worked in the company for 5 years and in the industry for 15 years.
-                        </figcaption>
-                    </figure>  
-                    <figure>
-                        <img src="images/rafting-conductor.webp" alt="Rafting-conductor">
-                        <figcaption>Rafting-conductor<br>
-                                    Vardia Gabriela Durand, is the tour conductor, with more than 8 years in the company,
-                                    is a rafting instructor, competitive swimmer, rafting specialist.
+                <div class="body-aside">
+                    <div class="part-1">
+                        <h2 class="title3">Our Team</h2>
+                        <h4 class="title4"> We have a team of 25 employees, our winning and service culture motivates us to work as a team and
+                            with optimism to always provide the best service to the client and 
+                            for the client, in an environment where #Everyone is Welcome.
+                        </h4>          
+                        <div class="our-employees">
+                            <figure>
+                                <img src="images/sales-employee.webp" alt="Sales-employee">
+                                <figcaption>Sales Manager<br>
+                                            Cesar Antonio Puértolas, Sales Manager and guide in outdoor adventure sports
+                                            with more than 25 years of experience in the field.
                                 </figcaption>
-                    </figure>
+                            </figure>
+                            <figure>
+                                <img src="images/reservations-employee.webp" alt="Reservations-employee">
+                                <figcaption>Reservations and Logistics<br>
+                                            María Cristina Olivares, has worked in the company for 5 years and in the industry for 15 years.
+                                </figcaption>
+                            </figure>  
+                            <figure>
+                                <img src="images/rafting-conductor.webp" alt="Rafting-conductor">
+                                <figcaption>Rafting-conductor<br>
+                                            Vardia Gabriela Durand, is the tour conductor, with more than 8 years in the company,
+                                            is a rafting instructor, competitive swimmer, rafting specialist.
+                                        </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="part-2">
+                        <section class="form">
+                            <h4 class="title4">Send us an email with your query to sales@raftingadventures.com 
+                                or complete the form.
+                            </h4>
+                            <h2 class="title3"> Ready to get in contact?</h2>
+                            <form action="index.html" method="post">-->
+                                <div class="data-general">
+                                    <div>
+                                        <label for="name">NAME</label>
+                                        <input type="text" id="name" name="name" placeholder=" Write your full name">
+                                    </div>
+                                    <div>
+                                        <label for="email">EMAIL ADDRESS</label>
+                                        <input type="text" id="email" name="email" placeholder=" Write your email">
+                                    </div>
+                                    <div>
+                                        <label for="country">COUNTRY</label>
+                                        <input type="text" id="country" name="country" placeholder=" Input your country">
+                                    </div>
+                                    <h5>Opening hours: (Peruvian time, GMT -5)</h5>
+                                    <h5>Monday to Friday: 09:00-13:00, 15:00-19:00</h5> 
+                                    <h5>Saturdays: 09:00-13:00 (except holidays)</h5>
+                                    <h5>Phone : 999-999-999</h5>
+                                    <h5>Mail to : reservations@raftingadventures.com</h5>
+                                </div>
+                                <div class="data-specific">
+                                    <div class="purpose">
+                                        <h3>PURPOSE OF THE MESSAGE</h3>
+                                        <label style="float:left"><input checked type="radio" id="purpose1" name="purpose1" value="Inquire">General Inquiry</label>
+                                        <label style="float:left"><input type="radio" id="purpose2" name="purpose1" value="Reservation">Reservation Question</label>
+                                        <label style="float:left"><input type="radio" id="purpose3" name="purpose1" value="Suggestion">Web Site Suggestion</label>
+                                    </div>
+                                    <div class="message-client">
+                                        <label for="message1" class="message">Write here your message</label> 
+                                        <textarea name="message" cols="36" rows="8" id="message1" class="box-message" required="" ></textarea>
+                                    </div>
+                                    <br>
+                                    <div class="suscription>">
+                                        <label style="float:left"><input type="checkbox" id="newsletter" >Please subscribe me to the monthly newsletter</label>
+                                    </div>
+                                    <br><br>
+                                    <input class="button" type="submit" value="Ready? Submit!">
+                                    <br>
+                                    <br>
+                                </div>
+                            </form>
+                        </section>
+                    </div>    
                 </div>
-                <section class="form">
-                    <h4 class="title4">Send us an email with your query to sales@raftingadventures.com, 
-                        or complete the form.
-                    </h4>
-                    <h2 class="title2"> Ready to get in contact?</h2>
-                    <form action="index.html" method="post">-->
-                        <div class="data-general">
-                            <div>
-                                <label for="name">NAME</label>
-                                <input type="text" id="name" name="name" placeholder=" Write your full name">
-                            </div>
-                            <div>
-                                <label for="email">EMAIL ADDRESS</label>
-                                <input type="text" id="email" name="email" placeholder=" Write your email">
-                            </div>
-                            <div>
-                                <label for="country">COUNTRY</label>
-                                <input type="text" id="country" name="country" placeholder=" Input your country">
-                            </div>
-                            <h5>Opening hours: (Peruvian time, GMT -5)</h5>
-                            <h5>Monday to Friday: 09:00-13:00, 15:00-19:00</h5> 
-                            <h5>Saturdays: 09:00-13:00 (except holidays)</h5>
-                            <h5>Phone : 999-999-999</h5>
-                            <h5>Mail to : reservations@raftingadventures.com</h5>
-                        </div>
-                        <div class="data-specific">
-                            <div class="purpose">
-                                <h3>PURPOSE OF THE MESSAGE</h3>
-                                <label style="float:left"><input checked type="radio" id="purpose1" name="purpose1" value="Inquire">General Inquiry</label>
-                                <label style="float:left"><input type="radio" id="purpose2" name="purpose1" value="Reservation">Reservation Question</label>
-                                <label style="float:left"><input type="radio" id="purpose3" name="purpose1" value="Suggestion">Web Site Suggestion</label>
-                            </div>
-                            <div class="message-client">
-                                <label for="message1" class="message">Write here your message</label> 
-                                <textarea name="message" cols="36" rows="8" id="message1" class="box-message" required="" ></textarea>
-                            </div>
-                            <br>
-                            <div class="suscription>">
-                                <label style="float:left"><input type="checkbox" id="newsletter" >Please subscribe me to the monthly newsletter</label>
-                            </div>
-                            <br><br>
-                            <input class="button" type="submit" value="Ready? Submit!">
-                            <br>
-                            <br>
-                        </div>
-                    </form>
-                </section>
             </aside>
         </main>
         
