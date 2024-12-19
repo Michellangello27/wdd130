@@ -288,6 +288,8 @@ footer {
 }
 iframe {
     border: 1px solid black;
+    width: 800;
+    height: 710;
 }
 .map-responsive {
     overflow:hidden;
