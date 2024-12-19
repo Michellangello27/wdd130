@@ -376,7 +376,7 @@ aside {
 
 .data-especific {
     float: left;
-    margin-left: 0 25px 5px;
+    margin-left: 0 25px;
 
     width: 50%;
     justify-content: center;
