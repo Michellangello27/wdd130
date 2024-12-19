@@ -393,7 +393,7 @@ input {
     align-items: center;
 }
 
-.message1 {
+.comment {
     cursor: pointer;
     margin-inline: 100px;
 }
