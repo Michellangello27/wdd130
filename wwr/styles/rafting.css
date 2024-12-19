@@ -448,7 +448,7 @@ input[type=checkbox] {
     color: var(--primary-color)
 }
 .sales-trips {
-    padding:10px;
+    padding:20px;
     background-color: var(--background-color);
 }
 
@@ -457,8 +457,8 @@ input[type=checkbox] {
 }
 
 table {
-    color: var(--primary-color)
-    font-size: 10px;
+    color: var(--primary-color);
+    font-size: 16px;
     table-layout: fixed;
     border-collapse: collapse;
 }
