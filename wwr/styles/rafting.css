@@ -572,3 +572,7 @@ tbody tr:hover {
     margin-top: 100px;
     grid-area: base2;
 }
+@import url("https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d288.33177282695624!2d-71.98711826658423!3d-13.516283086560154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1734237081555!5m2!1ses-419!2spe"
+                                title="Location Map on Google"
+                                width="377"
+                                height="335");
